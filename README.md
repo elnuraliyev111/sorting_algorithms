@@ -53,3 +53,19 @@ Sort the three of them using merge_sort() and save them into the variables order
 Checkpoint 2 Passed
 2.
 Print out the ordered lists! How do they look?
+
+
+# Quick Sort
+
+QUICKSORT: PYTHON
+Quicksort Review
+Congratulations on implementing the quicksort algorithm in Python. To review:
+
+We established a base case where the algorithm will complete when the start and end pointers indicate a list with one or zero elements
+If we haven’t hit the base case, we randomly selected an element as the pivot and swapped it to the end of the list
+We then iterate through that list and track all the “lesser than” elements by swapping them with the iteration index and incrementing a lesser_than_pointer.
+Once we’ve iterated through the list, we swap the pivot element with the element located at lesser_than_pointer.
+With the list partitioned into two sub-lists, we repeat the process on both halves until base cases are met.
+Instructions
+1.
+We’ve included the complete quicksort algorithm with some extra comments and print statements. Run the code to see a more detailed breakdown of each step!
