@@ -31,3 +31,25 @@ We can’t make Bubble Sort better than O(N^2), but let’s take a look at the o
 
 We’re also taking advantage of parallel assignment in Python and abstracting away the swap() function!
 
+
+# Merge Sort
+
+MERGE SORT: PYTHON
+Testing the Sort
+We’ve written our merge sort! The whole sort takes up two functions:
+
+merge_sort() which is called recursively breaks down an input list to smaller, more manageable pieces. merge() which is a helper function built to help combine those broken-down lists into ordered combination lists.
+
+merge_sort() continues to break down an input list until it only has one element and then it joins that with other single element lists to create sorted 2-element lists. Then it combines 2-element sorted lists into 4-element sorted lists. It continues that way until all the items of the lists are sorted!
+
+Only one thing left to do, test it out!
+
+Instructions
+1.
+In script.py we have placed three unordered lists: unordered_list1, unordered_list2, and unordered_list3.
+
+Sort the three of them using merge_sort() and save them into the variables ordered_list1, ordered_list2 and ordered_list3.
+
+Checkpoint 2 Passed
+2.
+Print out the ordered lists! How do they look?
